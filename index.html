@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM METHODS</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" class="nav-link" onclick="toggleLine(this)">Home</a>
+        <a href="#" class="nav-link" onclick="toggleLine(this)">Services</a>
+        <a href="#" class="nav-link" onclick="toggleLine(this)">Clients</a>
+        <a href="#" class="nav-link" onclick="toggleLine(this)">Contact</a>
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
